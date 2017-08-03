@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "The Globe"
+title = "The Globe is down!"
 baseurl = "/"
 theme = "aerial"
 
 [params]
-  name = "The Globe GWU"
-  about = "Whoops! We're down for maintenance right now. Please check back soon!"
-  copyright = "The Globe"
+  name = "The Globe"
+  about = "Whoops! We're down for maintanance right now. Check back soon!"
+  copyright = "Joe DePumpo"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
