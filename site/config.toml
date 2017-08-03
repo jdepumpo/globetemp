@@ -5,8 +5,8 @@ theme = "aerial"
 
 [params]
   name = "The Globe GWU"
-  about = "Whoops! We're down for maintnance right now. Please check back soon!"
-  copyright = "Untitled"
+  about = "Whoops! We're down for maintenance right now. Please check back soon!"
+  copyright = "The Globe"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
