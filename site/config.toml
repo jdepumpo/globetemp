@@ -1,22 +1,60 @@
+# Site settings
+baseurl = "/"
 languageCode = "en-us"
 title = "The Globe is down!"
-baseurl = "/"
-theme = "aerial"
+theme = "hugo-smpl-theme"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
 
 [params]
-  name = "The Globe"
-  about = "Whoops! We're down for maintanance right now. Check back soon!"
-  copyright = "Joe DePumpo"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ""
-  favicon = "favicon.ico"
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://facebook.com/ESIAglobe"
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Your Name"
+  description = "Your Description"
 
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailitto:hello@theglobegwu.com"
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "The Globe"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "The Globe<br>is down for maintenance!"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "We're sorry, you'll have to check back soon!"
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "http://facebook.com/ESIAglobe"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:hello@theglobegwu.com"
