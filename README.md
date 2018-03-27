@@ -3,4 +3,4 @@
 **Placeholder Netlify site while the main site is down.**
 
 
-Site based on hugo [Hugo](https://gohugo.io/).
+Site based on [Hugo](https://gohugo.io/).
